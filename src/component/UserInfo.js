@@ -1,7 +1,7 @@
 import React from "react";
 import "./UserInfo.css";
 
-const UserInfo = ({ user }) => (
+const UserInfo = () => (
     <div className="user_info">
         <img
             src="https://avatars.githubusercontent.com/u/5550850?v=4"
