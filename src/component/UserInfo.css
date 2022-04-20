@@ -21,16 +21,36 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .user_info_s {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .user_infoDetail {
+    width: 75%;
     font-size: 14px;
     margin-right: 15px;
     color: gray;
     display: flex;
     align-items: center;
+    overflow-wrap: normal;
+    align-content: center;
+    justify-content: center;
+    overflow-wrap: normal;
+}
+
+.user_infoDetailBio {
+    width: 50%;
+    font-size: 14px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    overflow-wrap: normal;
+    align-content: center;
 }
