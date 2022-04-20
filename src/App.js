@@ -8,7 +8,7 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path = "/:userName" component={UserPage} />
-          <Redirect to = {'/bradtraversy'} />
+          <Redirect to = '/bradtraversy' />
         </Switch>
       </BrowserRouter>
   );
