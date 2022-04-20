@@ -7,6 +7,10 @@
     margin-top: 20px;
 }
 
+.user_info > h5 {
+    text-align: center;
+}
+
 .user_info > img {
     border-radius: 50%;
     object-fit: contain;
