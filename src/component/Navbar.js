@@ -11,9 +11,9 @@ const Navbar = ({ user }) => (
             alt="profile"
             style={{marginLeft : "20px"}}
         />
-        <h3 style={{ color : "white", marginLeft : "15px"}}>{user.name}</h3>
+        <h3 style={{ color : "white", marginLeft : "15px", fontSize : "25px"}}>{user.name}</h3>
 
-        <a className="ml-auto d-flex align-items-center" href='#' style={{marginLeft : "65%"}}>Search for other users</a>
+        <a className="ml-auto d-flex align-items-center" href='/' style={{marginLeft : "65%"}}>Search for other users</a>
     </nav>
 )
 
