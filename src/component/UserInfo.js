@@ -11,7 +11,7 @@ const UserInfo = ({ user }) => (
             alt="profileimage"
         />
         <div className="user_infoDetails">
-            <h5>{user.name}</h5>
+            <h5 style={{fontSize : "30px"}}>{user.name}</h5>
             <div className="user_info_s">
                 {user.bio && (
                     <div className="user_infoDetailBio">
@@ -30,7 +30,7 @@ const UserInfo = ({ user }) => (
                 {user.blog && (
                     <div className="user_infoDetail">
                         <i className="fa fa-globe pr-1" />
-                        <span style={{marginLeft : "5px"}}>{user.blog} ·</span>
+                        <a target="_blank" rel="noreferrer_noopener" href={user.blog} style={{marginLeft : "5px", textDecorationColor : "gray"}}>{user.blog}</a>
                     </div>
                 )}
                 {user.twitter_username && (
@@ -48,7 +48,7 @@ const UserInfo = ({ user }) => (
                 {user.html_url && (
                     <div className="user_infoDetail">
                         <i className="fa fa-github pr-1" />
-                        <span style={{marginLeft : "5px"}}>{user.html_url}</span>
+                        <a target="_blank" rel="noreferrer_noopener" href={user.html_url} style={{marginLeft : "5px", textDecorationColor : "gray"}}>{user.html_url}</a>
                     </div>
                 )}
             </div>

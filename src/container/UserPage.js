@@ -23,7 +23,7 @@ function UserPage({match}) {
     }
 
     async function fetchRepo() {
-        const {data} = await getUserData(userNameParam)
+        const {data} = await getUserRepo(userNameParam)
         setRepos(data)
     }
 
