@@ -5,6 +5,7 @@ import Repositories from "../component/Repositories";
 import {getUserData, getUserRepo} from "../api/api";
 import {matchPath} from "react-router-dom";
 import Loading from "../component/Loading";
+import Search from "../component/Search";
 
 function UserPage({match}) {
 
@@ -29,6 +30,7 @@ function UserPage({match}) {
 
     return (
         <>
+
             {user ? (
                 <>
                     <Navbar user = {user} />
