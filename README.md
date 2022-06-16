@@ -1,3 +1,7 @@
+# GitHub-Repository-Listing
+
+This lists the repositories of a GitHub user using their GitHub username.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
